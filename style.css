@@ -1,9 +1,17 @@
-body{
+body {
     background-color: azure;
     color: cadetblue;
     font-size: 25px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-h1{
+h1 {
     font-size: 30px;
+    color: darkolivegreen;
+}
+.main-header {
+    font-style: italic;
+}
+
+.wood-font {
+    color: burlywood;
 }
