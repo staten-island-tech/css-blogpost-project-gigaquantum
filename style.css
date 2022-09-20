@@ -6,11 +6,15 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+*,body,html {
+    box-sizing: border-box;
+}
+
 .article-box {
     background-color: #B2EBF2;
-    width: 50%;
-    height: 50%;
-    margin-bottom: 200px;
+    width: 500px;
+    height: 500px;
+    margin-bottom: 400px;
 }
 
 h1 {
@@ -22,10 +26,6 @@ h1 {
     
 }
 
-.wood-font {
-    color: burlywood;
-}
-
 .image {
-    
+    style="width: 80%;"
 }
