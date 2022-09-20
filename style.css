@@ -1,20 +1,31 @@
 body {
     background-image: url(img/airport-background.jpg);
-    background-size: cover;
+    background-size: 100vw;
     color: cadetblue;
     font-size: 25px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.article-box {
+    background-color: #B2EBF2;
+    width: 50%;
+    height: 50%;
+    margin-bottom: 200px;
+}
+
 h1 {
     font-size: 30px;
     color: darkolivegreen;
 }
 
-.main-header {
-    font-style: italic;
-    margin-top: 50px;
+.header-box {
+    
 }
 
 .wood-font {
     color: burlywood;
+}
+
+.image {
+    
 }
