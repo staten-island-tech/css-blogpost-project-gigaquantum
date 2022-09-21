@@ -1,31 +1,39 @@
 body {
     background-image: url(img/airport-background.jpg);
-    background-size: 100vw;
+    background-size: cover;
     color: cadetblue;
     font-size: 25px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Karla', sans-serif;
+
 }
 
 *,body,html {
     box-sizing: border-box;
 }
-
-.article-box {
-    background-color: #B2EBF2;
-    width: 500px;
-    height: 500px;
-    margin-bottom: 400px;
+.background {
+    filter: blur(8px);
 }
 
-h1 {
-    font-size: 30px;
-    color: darkolivegreen;
+.article {
+    border-radius: 2vw;
+    background-color:aquamarine;
+    width: 640px;
+    height: 71%;
+    margin: 2% auto;
+    padding: 1%;
 }
 
-.header-box {
-    
+.header {
+    margin: 2vw;
+    background-color: hsla(160, 100%, 75%, 0.6);
+    background-size: cover;
+    margin: 1%;
+    padding: 1%;
+    border-radius: 2vw;
+    font-style: "Bold";
 }
 
 .image {
-    style="width: 80%;"
+    border-radius: 2vw;
+    margin: auto 10%;
 }
