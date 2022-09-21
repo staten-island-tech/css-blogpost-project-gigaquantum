@@ -17,9 +17,9 @@ body {
 .article {
     border-radius: 2vw;
     background-color:aquamarine;
-    width: 640px;
-    height: 71%;
-    margin: 2% auto;
+    width: fit-content;
+    height: fit-content;
+    margin: 2% 2vw;
     padding: 1%;
 }
 
