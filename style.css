@@ -4,7 +4,6 @@ body {
     color: cadetblue;
     font-size: 25px;
     font-family: 'Karla', sans-serif;
-
 }
 
 *,body,html {
@@ -14,13 +13,14 @@ body {
     filter: blur(8px);
 }
 
-.article {
+.card {
     border-radius: 2vw;
     background-color:aquamarine;
-    width: fit-content;
+    width: 30%;
     height: fit-content;
     margin: 2% 2vw;
     padding: 1%;
+    
 }
 
 .header {
@@ -31,9 +31,23 @@ body {
     padding: 1%;
     border-radius: 2vw;
     font-style: "Bold";
+    text-align: center;
 }
 
-.image {
+.card-image {
     border-radius: 2vw;
     margin: auto 10%;
+}
+
+.card-button {
+    background-color: blanchedalmond;
+    color: cornflowerblue;
+    width: fit-content;
+    height: min-content;
+    padding: 5px 5px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 35px;
 }
