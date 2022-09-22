@@ -1,7 +1,6 @@
 body {
     background-image: url(img/airport-background.jpg);
     background-size: cover;
-    color: cadetblue;
     font-size: 25px;
     font-family: 'Karla', sans-serif;
 }
@@ -9,23 +8,20 @@ body {
 *,body,html {
     box-sizing: border-box;
 }
-.background {
-    filter: blur(8px);
-}
 
 .card {
     border-radius: 2vw;
-    background-color:aquamarine;
-    width: 30%;
+    background-color:#B2EBF2;
+    width: 640px;
     height: fit-content;
-    margin: 2% 2vw;
-    padding: 1%;
-    
+    margin: 2% 50%;
+    transform: translate(-50%, 0);
+    padding: 2%;
 }
 
 .header {
     margin: 2vw;
-    background-color: hsla(160, 100%, 75%, 0.6);
+    background-color: #B2EBF2;
     background-size: cover;
     margin: 1%;
     padding: 1%;
@@ -39,15 +35,35 @@ body {
     margin: auto 10%;
 }
 
-.card-button {
-    background-color: blanchedalmond;
-    color: cornflowerblue;
-    width: fit-content;
-    height: min-content;
-    padding: 5px 5px;
+.card-link {
     text-align: center;
+}
+
+a {
+    color: #009688;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: #0097A7;
 }
 
 h2 {
     font-size: 35px;
+    color: #0097A7;
+}
+
+h3 {
+    font-size: 25px;
+    font-style: italic;
+    color: #757575;
+}
+
+p {
+    font-size: 25px;
+}
+
+span {
+    font-weight: 600;
 }
